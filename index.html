@@ -575,54 +575,24 @@
 <script src="db/customerDB.js"></script>
 <script src="model/customerModel.js"></script>
 <script src="controller/customerController.js"></script>
-<script src="app.js"></script>
+<script src="js/app.js"></script>
 
 <!--///////////////////////Item javascript code\\\\\\\\\\\\\\\\\\\\\\\\\\\\-->
 <!-- Include the scripts in order -->
 <script src="db/ItemDB.js"></script>
 <script src="model/ItemModel.js"></script>
 <script src="controller/ItemController.js"></script>
-<script src="app.js"></script>
+<script src="js/app.js"></script>
 
 <!--/////////////Order javascript code \\\\\\\\\\\\\\\\\\\\\\\\\\\\\-->
 <!-- Include the scripts in order -->
 <script src="db/orderDB.js"></script>
 <script src="model/orderModel.js"></script>
 <script src="controller/orderController.js"></script>
-<script src="app.js"></script>
+<script src="js/app.js"></script>
 
-<script>
-    function showSection(sectionId) {
-        // Hide all sections
-        document.querySelectorAll('.section').forEach(section => {
-            section.classList.remove('active');
-        });
-
-        // Update active nav link
-        document.querySelectorAll('.nav-link').forEach(link => {
-            link.classList.remove('active');
-            if (link.getAttribute('onclick') && link.getAttribute('onclick').includes(sectionId)) {
-                link.classList.add('active');
-            }
-        });
-
-        // Show the selected section
-        const section = document.getElementById(sectionId);
-        if (section) {
-            section.classList.add('active');
-        }
-
-        // Special case for login/signup buttons
-        if (sectionId === 'login' || sectionId === 'signup') {
-            document.querySelector('.nav-link[onclick*="home"]').classList.add('active');
-        }
-    }
-
-    // Initialize with home section
-    document.addEventListener('DOMContentLoaded', function() {
-        showSection('home');
-    });
-</script>
+<!--////////////Main js file for navigation the system \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\-->
+<script src="js/main.js"></script>
 
 </body>
 </html>

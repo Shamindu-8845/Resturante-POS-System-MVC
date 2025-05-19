@@ -546,3 +546,9 @@ header {
     transition: height 0.3s ease;
 }
 
+#body {
+    background: url('assets/images/Resturate-image.webp') center/cover no-repeat fixed;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
