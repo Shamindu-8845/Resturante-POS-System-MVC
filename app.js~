@@ -1,0 +1,20 @@
+document.addEventListener('DOMContentLoaded', function() {
+    // Initialize the application
+    const db = new ItemDB();
+    const model = new ItemModel(db);
+    const controller = new ItemController(model);
+});
+
+document.addEventListener('DOMContentLoaded', function() {
+    // Initialize the application
+    const db = new CustomerDB();
+    const model = new CustomerModel(db);
+    const controller = new CustomerController(model);
+});
+
+document.addEventListener('DOMContentLoaded', function() {
+    // Initialize the application
+    const db = new OrderDB();
+    const model = new OrderModel(db);
+    const controller = new OrderController(model);
+});
