@@ -18,19 +18,19 @@ This project is a standalone JavaFX application designed for managing pharmacy o
 ## 🖼️ Project Screenshots 
 
 ### 📊 Home Page
-![Dashboard](assets/images/Home-Page.png)
+![Home Page](assets/images/Home-Page.png)
 
 ### 🔐 Login Page
 ![Login Page](assets/images/Login-Page.png)
 
 ### 📊 Customer Page
-![Dashboard](assets/images/Customer-Page.png)
+![Customer Page](assets/images/Customer-Page.png)
 
 ### 📊 Item Page
-![Dashboard](assets/images/Item-Page.png)
+![Item Page](assets/images/Item-Page.png)
 
 ### 📊 Order Page
-![Dashboard](assets/imagegs/Order-Page.png)
+![Order Page](assets/images/Order-Page.png)
 
 ## 🛠️ Technologies Used
 - Java
