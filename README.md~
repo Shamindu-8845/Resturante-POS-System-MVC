@@ -15,28 +15,37 @@ This project is a standalone JavaFX application designed for managing pharmacy o
 - Order Processing
 - Delivery Tracking
 
-## 🖼️ Project Screenshots 
+## 🖼️ Screenshots
 
 ### 📊 Home Page
-![Dashboard](assets/images/Home-Page.png)
+![Dashboard](assets/Home-Page.png)
 
 ### 🔐 Login Page
-![Login Page](assets/images/Login-Page.png)
+![Login Page](assets/Login-Page.png)
 
 ### 📊 Customer Page
-![Dashboard](assets/images/Customer-Page.png)
+![Dashboard](assets/Customer-Page.png)
 
 ### 📊 Item Page
-![Dashboard](assets/images/Item-Page.png)
+![Dashboard](assets/Item-Page.png)
 
 ### 📊 Order Page
-![Dashboard](assets/imagegs/Order-Page.png)
+![Dashboard](assets/Order-Page.png)
 
 ## 🛠️ Technologies Used
+
 - Java
 - JavaFX
 - Scene Builder
 - MySQL
 
+## 📦 Project Setup
+
+1. Clone the repo
+2. Open in IntelliJ / NetBeans
+3. Configure database connection
+4. Run the app
+
 ## 👨‍💻 Author
+
 @ Shamindu Kalugalage
