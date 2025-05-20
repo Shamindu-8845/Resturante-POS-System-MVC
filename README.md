@@ -13,6 +13,7 @@ This project is a Point of Sale (POS) system for a restaurant, which includes fe
 - Customer Management
 - Item Control
 - Order Processing
+- Payment Processing
 
 
 ## 🖼️ Project Screenshots 
